@@ -9,13 +9,8 @@ export const Header = styled('header')(()=> {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        minHeight: '64px',
-      
-        paddingRight: '24px',
-        paddingLeft: '24px',
-        paddingTop: '12px',
-        paddingBottom: '12px',
-      
+        minHeight: '120px',
+
         color:' #fff',
         backgroundColor:' #3f51b5',
 
