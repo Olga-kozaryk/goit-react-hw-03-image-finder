@@ -1,11 +1,12 @@
-import { ImageGalleryItem } from "components/ImageGalleryItem/ImageGalleryItem"
 
-export const ImageGallery = ({togleModal, images}) => {
+import {UlStyled} from "./ImageGallery.styled";
+import {ImageGalleryItem} from "../ImageGalleryItem/ImageGalleryItem";
+
+export const ImageGallery = ({images, togleModal}) => {
     return (
-        <>
-        <ul>
-            <ImageGalleryItem togleModal={togleModal} images={images} />
-        </ul>
-        </>
+        <UlStyled>
+       <ImageGalleryItem togleModal={togleModal} images={images} />
+        </UlStyled>
+
     )
-}  
+};
