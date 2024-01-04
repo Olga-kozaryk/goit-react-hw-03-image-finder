@@ -3,8 +3,9 @@ import styled from "styled-components"
 
 export const Container = styled('div')(()=> {
     return {
-
-        fontSize: 18,
-        color: '#010101',
+        display: "grid",
+        gridTemplateColumns: '1fr',
+        gridGap: '16px',
+        paddingBottom: '24px',
     }
 })
